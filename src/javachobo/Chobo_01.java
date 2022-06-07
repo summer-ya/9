@@ -2,7 +2,7 @@ package javachobo;
 
 import java.util.Scanner;
 
-public class chobo_01 {
+public class Chobo_01 {
 	public static void main(String[] args) {
 		System.out.print("숫자를 하나 입력하세요");
 		
