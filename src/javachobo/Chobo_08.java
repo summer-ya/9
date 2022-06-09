@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Chobo_08 {
 	public static void main(String[] args) {
-		for (int i = 2; i<=9; i++) {
-			for (int j = 1; j<=9; j++) {
-				System.out.printf("%d x %d = %d%n", i, j, i*j);
-			}
-			System.out.println();
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Input : ");
+		
+		int num = sc.nextInt();
+		for (int dan = 1; dan <=9; dan++) {
+			System.out.println(num + "x" + dan + " = " + num * dan);
 		}
 	}
 }
